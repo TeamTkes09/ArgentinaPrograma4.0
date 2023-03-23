@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>DinoMon</title>
+    <script src="./js/dino.js"></script>
+  </head>
+  <body>
+    <h1>Bienvenidos a DinoMon</h1
+    <section id="seleccionar-mascota">
+      <h2>Seleccione su DinoMon</h2>
+      <label for="dinoTierra">dinoTierra</label>
+      <input type="radio" name="mascota" id="dinoTierra"/>
+
+      <label for="dinoFuego">dinoFuego</label>
+      <input type="radio" name="mascota" id="dinoFuego"/>
+
+      <label for="dinoViento">dinoViento</label>
+      <input type="radio" name="mascota" id="dinoViento"/>
+
+      <label for="dinoAgua">dinoAgua</label>
+      <input type="radio" name="mascota" id="dinoAgua"/>
+
+      <button id="seleccionar-Mascota">Seleccionar</button>
+    </section>
+
+    <section id="seleccionar-ataque">
+    <h2>Selecciona tu ataque</h2>
+    <p>Tu DinoMon <span id="mascotaJugador"></span> tiene <span id="vidaJugador">3</span> vidas</p>
+    <p>La DinoMon <span id="mascotaEnemigo"></span> de tu enemigo tiene <span id="vidaEnemigo">3</span> vidas</p>
+    <button>Fuego</button> <button>Agua</button> <button>Tierra</button> <button>Viento</button>
+    </section>
+
+    <section id="mensaje">
+    <h2>Tu DinoMon ataco con Fuego, El DinoMon de tu enemigo ataco con Tierra. Ganaste</h2>
+    <button>Reiniciar</button>
+    </section>
+  </body>
+</html>
